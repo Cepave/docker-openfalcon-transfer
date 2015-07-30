@@ -16,7 +16,7 @@ COPY run.sh ./
 RUN chmod +x run.sh
 
 # Port
-EXPOSE 6060 8443 
+EXPOSE 6060 8433 
 
 # Start
 CMD ["./run.sh"]
