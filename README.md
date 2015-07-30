@@ -5,7 +5,7 @@
 Enter the following command in the repo directory.
 
 ```
-$sudo docker build --force-rm=true -t openfalcon-graph .
+$sudo docker build --force-rm=true -t openfalcon-transfer .
 ```
 
 ## Run
