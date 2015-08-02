@@ -22,14 +22,14 @@ $sudo docker run -dti --name transfer -p 6060:6060 -p 8433:8433 openfalcon-trans
 
 + Self-defined configuration
 
-  Replace file **cfg.json** in the volume */config*.  
-  For more detail about **cfg.json**, see [Transfer](http://book.open-falcon.com/zh/install/transfer.html).
+    Replace file **cfg.json** in the volume */config*.  
+    For more detail about **cfg.json**, see [Transfer](http://book.open-falcon.com/zh/install/transfer.html).
 
 + New falcon-transfer package
 
-  Replace file **falcon-transfer.tar.gz** in the volume */package*.
+    Replace file **falcon-transfer.tar.gz** in the volume */package*.
   
-  For example, **cfg.json** in /tmp/config and **falcon-transfer.tar.gz** in /tmp/pack,
+For example, **cfg.json** in /tmp/config and **falcon-transfer.tar.gz** in /tmp/pack,
 
 ```
 $sudo docker run -dti --name transfer -v /tmp/pack:/package -v /tmp/config/cfg.json:/config/cfg.json -p 6060:6060 -p 8433:8433 openfalcon-transfer
